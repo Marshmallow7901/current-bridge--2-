@@ -55,7 +55,7 @@ Current is a crypto-to-fiat bridge experience that blends a premium landing page
 - Gemini is used only for optional AI advisor responses.
 - If no Gemini key is provided, AI features show an offline message.
 
-## CV-Ready Project Description
+## C Project Description
 
 Current is a premium crypto-to-fiat bridge web app that combines a public marketing site with an authenticated financial terminal. Users can explore the protocol, then sign in to access a dashboard for live swaps, ZAR payments, asset balances, and transaction history. The experience is designed to feel like a secure, institutional-grade console while remaining easy to use.
 
@@ -86,14 +86,3 @@ Current is a premium crypto-to-fiat bridge web app that combines a public market
 - Icons: Lucide React
 - AI: Google Gemini (optional, via API key)
 - Data persistence (demo): Browser localStorage
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
